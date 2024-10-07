@@ -1,0 +1,99 @@
+{
+	"id": "9de74430-8e68-4866-9159-aa06e0f5db22",
+	"prevId": "00000000-0000-0000-0000-000000000000",
+	"version": "7",
+	"dialect": "postgresql",
+	"tables": {
+		"public.beyblades": {
+			"name": "beyblades",
+			"schema": "",
+			"columns": {
+				"id": {
+					"name": "id",
+					"type": "uuid",
+					"primaryKey": true,
+					"notNull": true
+				},
+				"name": {
+					"name": "name",
+					"type": "text",
+					"primaryKey": false,
+					"notNull": true
+				},
+				"thumbnail": {
+					"name": "thumbnail",
+					"type": "text",
+					"primaryKey": false,
+					"notNull": false
+				},
+				"rotation": {
+					"name": "rotation",
+					"type": "rotation",
+					"typeSchema": "public",
+					"primaryKey": false,
+					"notNull": true
+				},
+				"attack": {
+					"name": "attack",
+					"type": "integer",
+					"primaryKey": false,
+					"notNull": true
+				},
+				"defense": {
+					"name": "defense",
+					"type": "integer",
+					"primaryKey": false,
+					"notNull": true
+				},
+				"burst": {
+					"name": "burst",
+					"type": "integer",
+					"primaryKey": false,
+					"notNull": true
+				},
+				"agility": {
+					"name": "agility",
+					"type": "integer",
+					"primaryKey": false,
+					"notNull": true
+				},
+				"stamina": {
+					"name": "stamina",
+					"type": "integer",
+					"primaryKey": false,
+					"notNull": true
+				},
+				"weight": {
+					"name": "weight",
+					"type": "integer",
+					"primaryKey": false,
+					"notNull": true
+				},
+				"description": {
+					"name": "description",
+					"type": "text",
+					"primaryKey": false,
+					"notNull": false
+				}
+			},
+			"indexes": {},
+			"foreignKeys": {},
+			"compositePrimaryKeys": {},
+			"uniqueConstraints": {}
+		}
+	},
+	"enums": {
+		"public.rotation": {
+			"name": "rotation",
+			"schema": "public",
+			"values": ["LEFT", "RIGHT"]
+		}
+	},
+	"schemas": {},
+	"sequences": {},
+	"_meta": {
+		"columns": {},
+		"schemas": {},
+		"tables": {}
+	}
+}

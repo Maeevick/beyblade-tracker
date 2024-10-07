@@ -1,7 +1,17 @@
 {
 	"app": {
-		"title": "Welcome to Beyblade Tracker",
+		"welcome": "Welcome to",
+		"title": "Beyblade Tracker",
 		"cta": "Visit",
-		"doc": "to read the doc!"
+		"doc": "to read the doc!",
+		"emptyCollection": "the collection is empty",
+		"sortButton": "Sort",
+		"filterPlaceholder": "Filter by Name...",
+		"details": "More info",
+		"characteristics": "Characteristics",
+		"noBeybladeFound": "No Beyblade found",
+		"back": "Back",
+		"left": "L",
+		"right": "R"
 	}
 }

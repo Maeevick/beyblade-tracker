@@ -5,6 +5,8 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
+		"generate": "drizzle-kit generate",
+		"migrate": "drizzle-kit push",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -32,6 +34,7 @@
 		"@types/eslint": "^9.6.0",
 		"@types/node": "^22.7.3",
 		"autoprefixer": "^10.4.20",
+		"drizzle-kit": "^0.25.0",
 		"eslint": "^9.0.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0",
@@ -48,6 +51,12 @@
 		"vitest": "^2.0.0"
 	},
 	"dependencies": {
+		"@types/pg": "^8.11.10",
+		"dotenv": "^16.4.5",
+		"drizzle-orm": "^0.34.0",
+		"lucide-svelte": "^0.447.0",
+		"node-postgres": "^0.6.2",
+		"pg": "^8.13.0",
 		"svelte-i18n": "^4.0.0"
 	}
 }
