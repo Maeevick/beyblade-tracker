@@ -7,7 +7,7 @@ on:
     branches: ['main']
 
 jobs:
-  challenge-tracker:
+  beyblade-tracker:
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -44,3 +44,5 @@ jobs:
         if: steps.playwright-cache.outputs.cache-hit != 'true'
       - name: Continuous Integration
         run: npm run ci
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
