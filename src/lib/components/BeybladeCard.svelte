@@ -7,7 +7,7 @@
 </script>
 
 <div
-	class="transform overflow-hidden rounded-lg border-4 border-double border-orange-500 bg-white p-2 text-gray-900 shadow-md transition-transform duration-300 hover:scale-105"
+	class={`transform overflow-hidden rounded-lg border-4 border-double ${beyblade.rotation === 'RIGHT' ? 'border-blue-500' : 'border-red-500'} bg-white p-2 text-gray-900 shadow-md transition-transform duration-300 hover:scale-105`}
 >
 	<section class="h-48 cursor-pointer">
 		<img src={beyblade.thumbnail} alt={beyblade.name} class="h-full w-full object-cover" />
