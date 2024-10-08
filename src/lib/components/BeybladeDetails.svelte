@@ -13,7 +13,9 @@
 			<img
 				src={beyblade.thumbnail}
 				alt={beyblade.name}
-				class="h-auto w-full rounded-lg shadow-lg"
+				class={`h-auto w-full rounded-lg border-4 border-double shadow-lg ${
+					beyblade.rotation === 'RIGHT' ? 'border-blue-500' : 'border-red-500'
+				}`}
 			/>
 		</div>
 		<div class="">
