@@ -24,7 +24,7 @@
 		"@rollup/rollup-linux-x64-gnu": "^4.9.5"
 	},
 	"devDependencies": {
-		"@playwright/test": "^1.28.1",
+		"@playwright/test": "^1.48.0",
 		"@sveltejs/adapter-vercel": "^5.4.5",
 		"@sveltejs/kit": "^2.6.4",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
