@@ -24,13 +24,16 @@
 
 			<h2 class="mb-4 mt-8 text-2xl font-semibold">{$_('app.characteristics')}</h2>
 			<ul class="space-y-2">
-				<li><strong>Attack:</strong> {beyblade.attack}</li>
-				<li><strong>Defense:</strong> {beyblade.defense}</li>
-				<li><strong>Burst:</strong> {beyblade.burst}</li>
-				<li><strong>Agility:</strong> {beyblade.agility}</li>
-				<li><strong>Stamina:</strong> {beyblade.stamina}</li>
-				<li><strong>Weight:</strong> {beyblade.weight}</li>
-				<li><strong>Rotation:</strong> {$_(`app.${beyblade.rotation.toLocaleLowerCase()}`)}</li>
+				<li><strong>{$_(`app.attack`)}</strong> {beyblade.attack}</li>
+				<li><strong>{$_(`app.defense`)}</strong> {beyblade.defense}</li>
+				<li><strong>{$_(`app.burst`)}</strong> {beyblade.burst}</li>
+				<li><strong>{$_(`app.agility`)}</strong> {beyblade.agility}</li>
+				<li><strong>{$_(`app.stamina`)}</strong> {beyblade.stamina}</li>
+				<li><strong>{$_(`app.weight`)}</strong> {beyblade.weight}</li>
+				<li>
+					<strong>{$_(`app.rotation`)}</strong>
+					{$_(`app.${beyblade.rotation.toLocaleLowerCase()}`)}
+				</li>
 			</ul>
 		</div>
 	</div>

@@ -12,6 +12,13 @@
 		"noBeybladeFound": "Aucune Beyblade trouvée",
 		"back": "Retour",
 		"left": "G",
-		"right": "D"
+		"right": "D",
+		"attack": "Attaque :",
+		"defense": "Défense :",
+		"burst": "Explosion :",
+		"agility": "Agilité :",
+		"weight": "Poids :",
+		"stamina": "Endurance :",
+		"rotation": "Rotation :"
 	}
 }
