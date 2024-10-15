@@ -52,7 +52,7 @@
 		"@types/pg": "^8.11.10",
 		"dotenv": "^16.4.5",
 		"drizzle-orm": "^0.34.1",
-		"lucide-svelte": "^0.447.0",
+		"lucide-svelte": "^0.453.0",
 		"node-postgres": "^0.6.2",
 		"pg": "^8.13.0",
 		"svelte-i18n": "^4.0.0"
